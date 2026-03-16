@@ -1,10 +1,10 @@
 'use strict';
 
-var Get = require('es-abstract/2024/Get');
-var ToIntegerOrInfinity = require('es-abstract/2024/ToIntegerOrInfinity');
-var ToString = require('es-abstract/2024/ToString');
-var TypedArrayLength = require('es-abstract/2024/TypedArrayLength');
-var ValidateTypedArray = require('es-abstract/2024/ValidateTypedArray');
+var Get = require('es-abstract/2025/Get');
+var ToIntegerOrInfinity = require('es-abstract/2025/ToIntegerOrInfinity');
+var ToString = require('es-abstract/2025/ToString');
+var TypedArrayLength = require('es-abstract/2025/TypedArrayLength');
+var ValidateTypedArray = require('es-abstract/2025/ValidateTypedArray');
 
 module.exports = function at(index) {
 	var O = this; // step 1
